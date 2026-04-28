@@ -7,12 +7,12 @@ nombres2 = []
 vocales = "aAeEiIoOuU"
 ingresados = 0
 
-n = int(input(f"Que onda negrito, cuantos nombres queres ingresar?: "))
+n = int(input(f"Cuántos nombres quieres ingresar?: "))
 
 while ingresados < n:
     pp = input(f"Ingrese un nombre: ")
     if not pp.isalpha():
-        print(f"Dale amigo, solo letras, no seas tarado.")
+        print(f"Solo se permiten letras.")
     else:
         nombres.append(pp)
         ingresados = ingresados + 1
