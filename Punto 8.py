@@ -3,7 +3,7 @@
 
 import random
 
-numeros = [random.randint(1, 100) for _ in range(10)] #Busca un número random del 1 al 100.
+numeros = [random.randint(1, 100) for _ in range(10)] #Genera 10 números random del 1 al 100.
 
 maximo = max(numeros)
 minimo = min(numeros)
