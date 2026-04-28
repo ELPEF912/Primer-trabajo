@@ -15,8 +15,11 @@ while True:
     carrito.append(producto)
     precios.append(precio)
 
-total = sum(precios)
-mas_caro = carrito[precios.index(max(precios))] #Busca el índice del precio más caro así lo asocia con el producto.
+if len(precios) == 0:
+    print("No se ingresaron productos")
+else:
+    total = sum(precios)
+    mas_caro = carrito[precios.index(max(precios))] #Busca el índice del precio más caro así lo asocia con el producto.
 
-print(f"Total gastado: ${total}")
-print(f"Producto más caro: {mas_caro}")
+    print(f"Total gastado: ${total}")
+    print(f"Producto más caro: {mas_caro}")
