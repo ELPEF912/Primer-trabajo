@@ -7,7 +7,7 @@ promedio = []
 n = int(input(f"¿Cuántos números desea almacenar?: "))
 
 if n == 0:
-    print(f"No flaquito, no pusiste ningun numerito, no se puede hacer nada.")
+    print(f"No ingresó ningún número.")
     exit()
 else:
     for i in range (n):
